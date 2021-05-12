@@ -6,8 +6,8 @@ This is a layer we are writing on top of [Hugging Face implementation](https://h
 ## Installation
 You can install the bleeding edge version of this library by doing:
 ```python
-   git clone git@github.com:swapnanilsharma/QuestionAnsweringBERT.git
-   cd sandesh
+   git clone https://github.com/swapnanilsharma/QuestionAnsweringBERT.git
+   cd QuestionAnsweringBERT
    python setup.py install
 ```
 
