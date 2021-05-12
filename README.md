@@ -4,16 +4,18 @@ This library is implementation of one of the transfer learning task using BERT m
 This is a layer we are writing on top of [Hugging Face implementation](https://huggingface.co/transformers/model_doc/bert.html#tfbertforquestionanswering)
 
 ## Installation
+**Python version requirement:** 3.7 or later
+
 You can install the bleeding edge version of this library by doing:
 ```python
    git clone https://github.com/swapnanilsharma/QuestionAnsweringBERT.git
    cd QuestionAnsweringBERT
-   python setup.py install
+   python3 setup.py install
 ```
 
 Or from pip:
 ```python
-   pip install QuestionAnsweringBERT
+   pip3 install QuestionAnsweringBERT
 ```
 
 ## Usage
