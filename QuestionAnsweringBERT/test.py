@@ -4,8 +4,9 @@ Created on Wed May 12 08:10:00 2021
 @author: Swapnanil Sharma, https://github.com/swapnanilsharma
 """
 
-
-from QuestionAnsweringBERT import QuestionAnsweringBERT as qabert
+import QuestionAnsweringBERT as qabert
+import warnings
+warnings.filterwarnings("ignore")
 
 '''
 This is a sample example of checking how we are getting answers based on one paragraph and a question.
@@ -31,6 +32,6 @@ The use of face masks or cloth face coverings such as a scarf or a bandana has b
 Health officials also stated that medical-grade face masks, such as N95 masks, should be used only by healthcare workers, first responders, and those who directly care for infected individuals.
 There are no proven vaccines or specific treatments for COVID-19 yet, though several are in development."""
     question='What is Coronavirus?'
-    #qabert=qabert.QuestionAnsweringBERT()
+    qabert=qabert.QuestionAnsweringBERT()
     ans=qabert.getAns(paragraph=paragraph, question=question)
     print(ans)
